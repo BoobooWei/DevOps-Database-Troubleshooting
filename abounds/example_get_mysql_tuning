@@ -1,0 +1,473 @@
+{
+    "msg": "",
+    "code": 0,
+    "data": {
+        "status_report": {
+            "Category": "数据库基本信息",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "uptime": "QPS平均负载 : 0.09",
+                    "version": "MySQL版本 : 5.7.17-log",
+                    "threads": "已连接的会话数 : 1",
+                    "questions": "查询统计 : 399"
+                }
+            ]
+        },
+        "summary_size_report": {
+            "Category": "数据和索引量统计和占比",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "total_size_gb": "0.3532",
+                    "index_size_gb": "0.0083",
+                    "data_size_gb": "0.3449",
+                    "perc_index": "2.00",
+                    "perc_data": "98.00"
+                }
+            ]
+        },
+        "database_data_report": {
+            "Category": "数据库库的数据量和索引量统计",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "table_schema": "uplooking",
+                    "data_length_MB": "281.77",
+                    "index_length_MB": "0.00"
+                },
+                {
+                    "table_schema": "otter",
+                    "data_length_MB": "44.88",
+                    "index_length_MB": "0.63"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys",
+                    "data_length_MB": "10.03",
+                    "index_length_MB": "2.34"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys_old",
+                    "data_length_MB": "9.08",
+                    "index_length_MB": "2.30"
+                },
+                {
+                    "table_schema": "zabbix",
+                    "data_length_MB": "3.94",
+                    "index_length_MB": "3.06"
+                },
+                {
+                    "table_schema": "mysql",
+                    "data_length_MB": "3.45",
+                    "index_length_MB": "0.21"
+                },
+                {
+                    "table_schema": "information_schema",
+                    "data_length_MB": "0.16",
+                    "index_length_MB": "0.00"
+                },
+                {
+                    "table_schema": "sys",
+                    "data_length_MB": "0.02",
+                    "index_length_MB": "0.00"
+                },
+                {
+                    "table_schema": "performance_schema",
+                    "data_length_MB": "0.00",
+                    "index_length_MB": "0.00"
+                }
+            ]
+        },
+        "table_data_report": {
+            "Category": "表的数据量和索引量Top10",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "table_schema": "uplooking",
+                    "table_name": "binlogtosql",
+                    "TABLE_ROWS": "2714320",
+                    "data_length_MB": "281.77",
+                    "index_length_MB": "0.00"
+                },
+                {
+                    "table_schema": "otter",
+                    "table_name": "LOG_RECORD",
+                    "TABLE_ROWS": "12990",
+                    "data_length_MB": "44.58",
+                    "index_length_MB": "0.28"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys",
+                    "table_name": "vg_terminal_config",
+                    "TABLE_ROWS": "4117",
+                    "data_length_MB": "6.56",
+                    "index_length_MB": "1.86"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys_old",
+                    "table_name": "vg_terminal_config",
+                    "TABLE_ROWS": "4117",
+                    "data_length_MB": "6.56",
+                    "index_length_MB": "1.80"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys",
+                    "table_name": "vg_terminal_info",
+                    "TABLE_ROWS": "4512",
+                    "data_length_MB": "3.47",
+                    "index_length_MB": "0.48"
+                },
+                {
+                    "table_schema": "vingoo_manage_sys_old",
+                    "table_name": "vg_terminal_info",
+                    "TABLE_ROWS": "4409",
+                    "data_length_MB": "2.52",
+                    "index_length_MB": "0.50"
+                },
+                {
+                    "table_schema": "mysql",
+                    "table_name": "help_topic",
+                    "TABLE_ROWS": "508",
+                    "data_length_MB": "1.52",
+                    "index_length_MB": "0.08"
+                },
+                {
+                    "table_schema": "zabbix",
+                    "table_name": "images",
+                    "TABLE_ROWS": "138",
+                    "data_length_MB": "1.52",
+                    "index_length_MB": "0.02"
+                },
+                {
+                    "table_schema": "mysql",
+                    "table_name": "innodb_index_stats",
+                    "TABLE_ROWS": "1692",
+                    "data_length_MB": "1.25",
+                    "index_length_MB": "0.00"
+                },
+                {
+                    "table_schema": "zabbix",
+                    "table_name": "items",
+                    "TABLE_ROWS": "701",
+                    "data_length_MB": "0.30",
+                    "index_length_MB": "0.14"
+                }
+            ]
+        },
+        "table_and_engine_report": {
+            "Category": "表数据量统计以及不同存储引擎表的数量统计",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "table_type": "BASE TABLE",
+                    "engine": "InnoDB",
+                    "num_tables": "172"
+                },
+                {
+                    "table_type": "VIEW",
+                    "engine": "NULL",
+                    "num_tables": "100"
+                },
+                {
+                    "table_type": "BASE TABLE",
+                    "engine": "PERFORMANCE_SCHEMA",
+                    "num_tables": "87"
+                },
+                {
+                    "table_type": "SYSTEM VIEW",
+                    "engine": "MEMORY",
+                    "num_tables": "51"
+                },
+                {
+                    "table_type": "BASE TABLE",
+                    "engine": "MyISAM",
+                    "num_tables": "10"
+                },
+                {
+                    "table_type": "SYSTEM VIEW",
+                    "engine": "InnoDB",
+                    "num_tables": "10"
+                },
+                {
+                    "table_type": "BASE TABLE",
+                    "engine": "CSV",
+                    "num_tables": "2"
+                }
+            ]
+        },
+        "innodb_engine_report": {
+            "Category": "innodb存储引擎表数据量情况",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "innodb_total_size_gb": "0.3529",
+                    "innodb_data_size_gb": "0.3446",
+                    "innodb_index_size_gb": "0.0083",
+                    "innodb_perc_index": "2.00",
+                    "innodb_perc_data": "98.00",
+                    "innodb_perc_total_index": "100.00",
+                    "innodb_perc_total_data": "100.00"
+                }
+            ]
+        },
+        "myiasm_engine_report": {
+            "Category": "myisam存储引擎表数据量情况",
+            "Check_status": 0,
+            "Issue": null,
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "myisam_total_size_gb": "0.0003",
+                    "myisam_data_size_gb": "0.0003",
+                    "myisam_index_size_gb": "0.0000",
+                    "myisam_perc_index": "13.00",
+                    "myisam_perc_data": "87.00",
+                    "myisam_perc_total_index": "0.00",
+                    "myisam_perc_total_data": "0.00"
+                }
+            ]
+        },
+        "check_dead_lock": {
+            "Category": "检查死锁情况",
+            "Check_status": 0,
+            "Issue": "不存在死锁",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": null
+        },
+        "check_innodb_lock": {
+            "Category": "检查innodb行锁等待",
+            "Check_status": 0,
+            "Issue": "不存在innodb锁冲突",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": null
+        },
+        "check_metadata_lock": {
+            "Category": "检查MDL锁",
+            "Check_status": 0,
+            "Issue": "不存在锁冲突",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": null
+        },
+        "check_slowlog": {
+            "Category": "检查慢查询",
+            "Check_status": 1,
+            "Issue": "慢查询占比较高",
+            "Description": "慢查询较多需要优化",
+            "Reference": "https://dev.mysql.com/doc/refman/5.7/en/server-status-variables.html#statvar_Slow_queries ",
+            "Solution": "根据您的工作角色(开发人员、DBA或两者的组合)，您可以优化单个SQL语句、整个应用程序、单个数据库服务器或多个网络数据库服务器的级别。有时您可以提前计划并提前计划性能，而其他时候您可能会在出现问题之后对配置或代码问题进行故障排除。优化CPU和内存使用情况还可以提高可伸缩性,允许数据库来处理更多的负载没有放缓down.https:/ /dev.mysql.com/doc/refman/5.7/en/optimization.html",
+            "result": [
+                {
+                    "long_query_time": "0.100000",
+                    "slow_query_log": "ON",
+                    "slow_query_log_file": "/alidata/mysql/dataslow.log",
+                    "min_examined_row_limit": "0",
+                    "log_queries_not_using_indexes": "ON",
+                    "slow_queries": 75,
+                    "slow_query_ratio": 0.19
+                }
+            ]
+        },
+        "check_ratio_aborterd_connections": {
+            "Category": "检查失败连接的比率",
+            "Check_status": 0,
+            "Issue": "失败连接比率正常",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": null
+        },
+        "check_ratio_max_connections": {
+            "Category": "检查最大连接数占比",
+            "Check_status": 0,
+            "Issue": "最大连接数配置正常",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "Current max_connections": 151,
+                    "Current Threads_connected": 1,
+                    "Historic Max_used_connections": 1,
+                    "Percentagte, The number of used connections is": 0.01
+                }
+            ]
+        },
+        "check_binlog": {
+            "Category": "检查二进制日志",
+            "Check_status": 2,
+            "Issue": "二进制日志没有开启；",
+            "Description": "二进制日志需要开启；二进制日志格式应该设为ROW ；二进制日志建议在每次写入时被同步到磁盘上； 二进制日志自动清理阈值expire_log_days应该大于0 ",
+            "Reference": "http://dev.mysql.com/doc/refman/5.7/en/binary-log.html",
+            "Solution": "您需要修改配置文件，添加或修改二进制日志的相关参数。",
+            "result": [
+                {
+                    "log_bin": "OFF",
+                    "binlog_format": "ROW",
+                    "sync_binlog": "1",
+                    "expire_logs_days": "30"
+                }
+            ]
+        },
+        "check_innodb": {
+            "Category": "检查innodb存储引擎的情况",
+            "Check_status": 0,
+            "Issue": "innodb配置良好",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "innodb_flush_log_at_trx_commit": "1",
+                    "innodb_doublewrite": "ON",
+                    "tx_isolation": "REPEATABLE-READ",
+                    "innodb_lock_wait_timeout": "50"
+                }
+            ]
+        },
+        "check_table_scans": {
+            "Category": "检查临时表使用情况",
+            "Check_status": 2,
+            "Issue": "临时表配置需要优化",
+            "Description": "比较理想的配置是：Created_tmp_disk_tables / Created_tmp_tables * 100% <= 25%。",
+            "Reference": "https://dev.mysql.com/doc/refman/5.7/en/server-status-variables.html#statvar_Created_tmp_disk_tables",
+            "Solution": "在优化查询语句时，避免使用临时表，如果无法避免，请确保这些临时表在内存中。",
+            "result": [
+                {
+                    "real_tmp_table_size": "16777216",
+                    "Created_tmp_disk_tables": "895",
+                    "Created_tmp_files": "6",
+                    "Created_tmp_tables": "11066",
+                    "tmp_table_raito": "0.08"
+                }
+            ]
+        },
+        "check_open_table": {
+            "Category": "检查open table的情况",
+            "Check_status": 0,
+            "Issue": "表缓存配置正常",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "table_open_cache": "2000",
+                    "Open_tables": "1877",
+                    "Opened_tables": "13012",
+                    "table_cache_hit_rate": "0.1",
+                    "table_cache_fill": "0.9"
+                }
+            ]
+        },
+        "check_threads": {
+            "Category": "检查线程缓冲",
+            "Check_status": 0,
+            "Issue": "线程缓存数thread_cache_size配置正常",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "thread_cache_size": "9",
+                    "Threads_created": "1",
+                    "Threads_cached": "0",
+                    "historic_threads_per_sec": 0.0002,
+                    "current_threads_per_sec": 0
+                }
+            ]
+        },
+        "check_query_cache_type": {
+            "Category": "检查查询缓存是否关闭",
+            "Check_status": 0,
+            "Issue": "查询缓冲已关闭",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "query_cache_type": "OFF"
+                }
+            ]
+        },
+        "check_sort_buffer": {
+            "Category": "检查排序缓冲",
+            "Check_status": 0,
+            "Issue": "排序缓存配置正常",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "sort_buffer_size": "256K",
+                    "read_rnd_buffer_size": "256K",
+                    "Sort_merge_passes": "0",
+                    "Sort_scan": "43",
+                    "Sort_range": "0",
+                    "total_sorts": 43,
+                    "passes_per_sort": 0
+                }
+            ]
+        },
+        "check_join_buffer_size": {
+            "Category": "检查join缓存使用情况",
+            "Check_status": 2,
+            "Issue": "您的连接似乎没有正确地使用索引。",
+            "Description": "您已经有0个join，没有使用索引导致需要全表扫描。",
+            "Reference": "https://dev.mysql.com/doc/refman/5.7/en/server-status-variables.html#sort_buffer_size",
+            "Solution": "您可以开启log-queries-not-using-indexes参数，然后在慢速查询日志中查找非索引join语句。如果您无法优化您的查询，您可能希望增加您的join_buffer_size，以容纳更大的连接。",
+            "result": [
+                {
+                    "Select_full_join": "36",
+                    "Select_range_check": "0",
+                    "join_buffer_size": "260K"
+                }
+            ]
+        },
+        "check_open_files_limit": {
+            "Category": "检查打开的文件数情况",
+            "Check_status": 0,
+            "Issue": "open_files_limit配置正常。",
+            "Description": null,
+            "Reference": null,
+            "Solution": null,
+            "result": [
+                {
+                    "open_files_limit": "5000",
+                    "Open_files": "1",
+                    "open_files_ratio": 0.0002
+                }
+            ]
+        }
+    }
+}
