@@ -77,7 +77,7 @@ class Get_mysql_tunning():
         #信息0、一般警告1、严重警告2、灾难3
 
     def mysql_cmd(self, exe):
-        cmd = """echo "{6}" | {0} -h{1} -P{2} -u{3} -p{4} {5} """.format(self.bin, self.url, self.port, self.user,
+        cmd = """echo "{6}" | {0} -h{1} -P{2} -u{3} -p'{4}' {5} """.format(self.bin, self.url, self.port, self.user,
                                                                          self.password, self.database, exe)
         return cmd
 
